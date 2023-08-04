@@ -3,9 +3,10 @@ import Comment from "./components/Comment";
 import useNode from "./hooks/useNode";
 import "./styles.css";
 
+//ReactJS-infinite-nested-comments
 const comments = {
   id: 1,
-  items: []
+  items: [],
 };
 const App = () => {
   const [commentsData, setCommentsData] = useState(comments);
